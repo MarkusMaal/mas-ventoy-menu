@@ -1,0 +1,316 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
+        { "VTOY_LINUX_REMOUNT": "1" },
+        { "VTOY_DEFAULT_KBD_LAYOUT": "QWERTY_UK" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/multiboot" }
+    ],
+    "theme":{
+        "file": "/ventoy/theme/Distro/theme.txt",
+        "gfxmode": "1280x1024"
+    },
+    "theme_legacy":{
+        "display_mode": "CLI"
+    },
+    "theme_uefi":{
+        "file": "/ventoy/theme/Distro/theme.txt",
+        "gfxmode": "max"
+    },
+    "menu_alias":[
+        {
+            "dir": "/multiboot/windows",
+            "alias": "Windows"
+        },
+        {
+            "dir": "/multiboot/macos",
+            "alias": "MacOS"
+        },
+        {
+            "dir": "/multiboot/linux",
+            "alias": "Linux"
+        },
+        {
+            "image": "/multiboot/windows/*11*.iso",
+            "alias": "Windows 11"
+        },
+        {
+            "image": "/multiboot/windows/*10*.iso",
+            "alias": "Windows 10"
+        },
+        {
+            "image": "/multiboot/windows/en-us_windows_freestyle*_x64_dvd*.iso",
+            "alias": "Windows eXperience Freestyle"
+        },
+        {
+            "image": "/multiboot/linux/antiX*386*.iso",
+            "alias": "antiX"
+        },
+        {
+            "image": "/multiboot/linux/bodhi*-legacy.iso",
+            "alias": "Bodhi (Pärand)"
+        },
+        {
+            "image": "/multiboot/linux/deepin-desktop*.iso",
+            "alias": "Deepin (Töölaud)"
+        },
+        {
+            "image": "/multiboot/linux/deepin-server*.iso",
+            "alias": "Deepin (Server)"
+        },
+        {
+            "image": "/multiboot/linux/Fedora*.iso",
+            "alias": "Fedora"
+        },
+        {
+            "image": "/multiboot/linux/linuxmint*64bit.iso",
+            "alias": "Linux Mint (64-bit)"
+        },
+        {
+            "image": "/multiboot/linux/linuxmint*32bit.iso",
+            "alias": "Linux Mint (32-bit)"
+        },
+        {
+            "image": "/multiboot/linux/lxle*",
+            "alias": "LXLE"
+        },
+        {
+            "image": "/multiboot/linux/MakuluLinux*.iso",
+            "alias": "Makulu Linux"
+        },
+        {
+            "image": "/multiboot/linux/manjaro-kde*.iso",
+            "alias": "Manjaro (KDE)"
+        },
+        {
+            "image": "/multiboot/linux/manjaro-gnome*.iso",
+            "alias": "Manjaro (Gnome)"
+        },
+        {
+            "image": "/multiboot/linux/MX-21.1_x64.iso",
+            "alias": "MX Linux 21.1 (64-bit)"
+        },
+        {
+            "image": "/multiboot/linux/neon-*.iso",
+            "alias": "KDE Neon"
+        },
+        {
+            "image": "/multiboot/linux/pop-os_20.10_amd64_nvidia*.iso",
+            "alias": "Pop!_OS (64-bit Nvidia)"
+        },
+        {
+            "image": "/multiboot/linux/pop-os_20.10_i386_nvidia*.iso",
+            "alias": "Pop!_OS (32-bit Nvidia)"
+        },
+        {
+            "image": "/multiboot/linux/SharkLinux.iso",
+            "alias": "Shark Linux"
+        },
+        {
+            "image": "/multiboot/linux/zenwalk-8.0.iso",
+            "alias": "Zenwalk 8.0"
+        },
+        {
+            "image": "/multiboot/linux/ubuntu-20.04.3-*.iso",
+            "alias": "Ubuntu 20.04"
+        },
+        {
+            "dir": "/multiboot/misc",
+            "alias": "Muud opsüsteemid"
+        },
+        {
+            "image": "/multiboot/misc/haiku*.iso",
+            "alias": "Haiku"
+        },
+        {
+            "image": "/multiboot/misc/ponyos.iso",
+            "alias": "Pony OS"
+        },
+        {
+            "dir": "/multiboot/live",
+            "alias": "Live keskkonnad"
+        },
+        {
+            "image": "/multiboot/live/gparted*.iso",
+            "alias": "GParted"
+        },
+        {
+            "image": "/multiboot/live/systemrescue-9.00-amd64.iso",
+            "alias": "System Rescue 9.0 (64-bit)"
+        },
+        {
+            "image": "/multiboot/live/tails*.img",
+            "alias": "Tails OS"
+        }
+    ],
+    "menu_tip":{
+        "tips":[
+            {
+                "image": "/multiboot/ubuntu-20.04.3-desktop-amd64.iso",
+                "tip": "Järgmisest menüüst saate valida kas käivitada püsimäluga (with persistance) või mitte. Valige sobiv variant vastavalt vajadusele."
+            }
+        ]
+    },
+    "menu_class":[
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "gparted",
+            "class": "debian"
+        },
+        {
+            "key": "neon",
+            "class": "gnu-linux"
+        },
+        {
+            "key": "windows",
+            "class": "windows"
+        },
+        {
+            "key": "arch",
+            "class": "arch"
+        },
+        {
+            "key": "antergos",
+            "class": "antergos"
+        },
+        {
+            "key": "arco",
+            "class": "arcolinux"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "deepin",
+            "class": "deepin"
+        },
+        {
+            "key": "devuan",
+            "class": "devuan"
+        },
+        {
+            "key": ".efi",
+            "class": "efi"
+        },
+        {
+            "key": "gentoo",
+            "class": "gentoo"
+        },
+        {
+            "key": "fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "kali",
+            "class": "kali"
+        },
+        {
+            "key": "elementary",
+            "class": "elementary"
+        },
+        {
+            "key": "endeavouros",
+            "class": "endeavouros"
+        },
+        {
+            "key": "kaos",
+            "class": "kaos"
+        },
+        {
+            "key": "korora",
+            "class": "korora"
+        },
+        {
+            "key": "kubuntu",
+            "class": "kubuntu"
+        },
+        {
+            "key": "mint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "lubuntu",
+            "class": "lubuntu"
+        },
+        {
+            "key": "mageia",
+            "class": "mageia"
+        },
+        {
+            "key": "memtest",
+            "class": "memtest"
+        },
+        {
+            "key": "suse",
+            "class": "opensuse"
+        },
+        {
+            "key": "pop-os",
+            "class": "pop-os"
+        },
+        {
+            "key": "Taaskäivita",
+            "class": "restart"
+        },
+        {
+            "key": "Sule",
+            "class": "shutdown"
+        },
+        {
+            "key": "siduction",
+            "class": "siduction"
+        },
+        {
+            "key": "solus",
+            "class": "solus"
+        },
+        {
+            "key": "steam",
+            "class": "steamos"
+        },
+        {
+            "key": "void",
+            "class": "void"
+        },
+        {
+            "key": "xubuntu",
+            "class": "xubuntu"
+        },
+        {
+            "dir": "/multiboot/live",
+            "class": "recovery"
+        },
+        {
+            "dir": "/multiboot/windows",
+            "class": "windows"
+        },
+        {
+            "dir": "/multiboot/linux",
+            "class": "gnu-linux"
+        },
+        {
+            "dir": "/multiboot/macos",
+            "class": "macosx"
+        },
+        {
+            "dir": "/multiboot/misc",
+            "class": "memtest"
+        }
+    ],
+    "persistence":[
+        {
+            "image": "/multiboot/linux/ubuntu-budgie-24.04.1-desktop-amd64.iso",
+            "backend":[
+                "/multiboot/linux/persistence_ext4_4GB_casper-rw.dat"
+            ]
+        }
+    ]
+}
