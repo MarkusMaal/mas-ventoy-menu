@@ -28,7 +28,7 @@ Paigalda mälupulgale kõigepealt [Ventoy](https://www.ventoy.net/en/download.ht
   
   * windows\ - Siia kopeerid Windowsi ISOd
 
-* ventoy\ - **Klooni see repo sisu siia** (git clone)
+* ventoy\ - **Klooni selle repo sisu siia** (git clone)
 
 See ongi kõik! Nüüd on teie mälupulgale buutites kategoriseeritud menüüd ja "Markuse mälupulk" teema! ISOsid saab lisada lihtsalt faile õigetesse kaustadesse kopeerides.
 
