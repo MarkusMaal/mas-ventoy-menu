@@ -6,7 +6,7 @@
 
 * Valmimise aasta: 2023
 
-* Viimane uuendus: 22. märts 2025. a
+* Viimane uuendus: 17. juuni 2025. a
 
 * Ilmumine videotes: [Minu buutitav mälupulk (2023. aasta uuendus)](https://www.youtube.com/watch?v=2uEY5dso_ho) (ilmub ka mõnedes [Markuse arvuti meelelahutus](https://www.youtube.com/playlist?list=PL6WkVx7vhlojSbsJVSxdXE1-hRRr5DUhS) episoodides)
 
